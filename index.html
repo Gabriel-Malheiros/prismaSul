@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/flexbox.css">
+    <title>PrismaSul | Login</title>
+</head>
+<body>
+    <main class="pagina__principal__login">
+        <div class="container__formulario">
+            <img src="./assets/Logo da Empresa_ Formulario.svg" alt="">
+
+            <form class="formulario">
+                <ul class="container">
+                    <li class="container__titulo">
+                        <label for="" class="tituloCampo">Ra</label>
+                    </li>
+
+                    <li class="container__campo">
+                        <input type="text" placeholder="insira seu ra" class="campo" id="login">
+                    </li>
+                </ul>
+
+                <ul class="container">
+                    <li class="container__titulo">
+                        <label for="" class="tituloCampo">Senha</label>
+                    </li>
+
+                    <li class="container__campo">
+                        <input type="password" placeholder="insira sua senha" class="campo" id="password">
+                    </li>
+                </ul>
+
+                <div class="botoes">
+                    <button class="botao">Registrar-se</button>
+                    <button class="botao" type="submit" onclick="logar(); return false">Entrar</button>
+                </div>
+            </form>
+        </div>
+
+        <img src="./assets/imagemTema.svg" alt="" class="imagemTema">
+    </main>
+
+    <script src="./js/index.js"></script>
+
+  
+
+</body>
+</html>

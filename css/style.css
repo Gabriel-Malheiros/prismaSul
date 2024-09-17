@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body {
+    height: 100vh;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+main {
+    height: 100%;
+}
+
+.container__formulario {
+    height: 100%;
+    width: 50%;
+}
+
+.container {
+    width: auto;
+}
+
+.container__campo {
+    width: auto;
+}
+
+
+.campo {
+    width: 430px;
+    height: 48px;
+    border: 1.5px solid black;
+    border-radius: 5px;
+    margin-top: 5px;
+    font-size: 16px;
+    padding: 5px 10px 5px 10px;
+}
+
+.botao {
+    width: 221px;
+    height: 44PX;
+    background-color: #023E8A;
+    color: white;
+    font-size: 16px;
+    border: 2px solid #023E8A;
+    border-radius: 5px;
+    cursor: pointer;
+}
